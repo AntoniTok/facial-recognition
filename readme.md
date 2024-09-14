@@ -37,7 +37,7 @@ Make sure your images are also stored somwhere outside these directories as they
 
 For creating the config.json file just use the one in this repository.
 
-The folders in the local_variables directory have .foo files in them. This is only to allow them to be added to this repository they are in no way needed for the functioning of the app.
+The folders in the local_variables directory have .foo files in them you can get rid of them if you download the file from this repository, they are not present in the docker image. This is only to allow them to be added to this repository they are in no way needed for the functioning of the app.
 
 Try to avoid uploading the same images multiple times, although is shouldn't really cause issues.
 
