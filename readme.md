@@ -1,6 +1,10 @@
 User Manual:
 The application has been written to run from the command line.
 
+First download the image using docker or if you wish to run everything from your code editor follow the instructions at the bottom of the page:
+
+docker pull antonitokarski/facial-recognition:latest
+
 After downloading the image you are going to need to mount 3 volumes in order for the application to function correctly:
 
 1 - A folder where you will place the images you wish to add to the database (eg. 'images')
