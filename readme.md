@@ -11,12 +11,12 @@ After downloading the image you are going to need to mount 3 volumes in order fo
 
 Example of how to do this (after the image has been pulled):
 
-> docker run -d \\
-> -- name example_name \\
-> -v /home/example_user/local_variables/images:/app/local_variables/images \\
-> -v /home/example_user/local_variables/reference_image:/app/local_variables/reference_image \\
-> -v /home/example_user/local_variables/config.json:/app/config.json \\
-> facial_recognition
+ docker run -d \\
+ -- name example_name \\
+ -v /home/example_user/local_variables/images:/app/local_variables/images \\
+ -v /home/example_user/local_variables/reference_image:/app/local_variables/reference_image \\
+ -v /home/example_user/local_variables/config.json:/app/config.json \\
+ facial_recognition
 
 
 You are also going to need to make a free aiven.io account and then create a PostgreSQL service with a free trial. The video linked at the bottom also explains how to do this if you need any help.
