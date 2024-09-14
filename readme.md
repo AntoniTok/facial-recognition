@@ -5,7 +5,7 @@ First download the image using docker or if you wish to run everything from your
 
 > docker pull antonitokarski/facial-recognition:latest
 
-After downloading the image you are going to need to mount 3 volumes in order for the application to function correctly:
+After downloading the image you are going to need to create 3 files on your device and mount them as volumes in order for the application to function correctly:
 
 1 - A folder where you will place the images you wish to add to the database (eg. 'images')
 
@@ -34,6 +34,8 @@ You are also going to need to make a free aiven.io account and then create a Pos
 Comments:
 
 Make sure your images are also stored somwhere outside these directories as they will be cleared after the images have served their purpose.
+
+For creating the config.json file just use the one in this repository.
 
 The folders in the local_variables directory have .foo files in them. This is only to allow them to be added to this repository they are in no way needed for the functioning of the app.
 
