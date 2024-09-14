@@ -11,7 +11,7 @@ After downloading the image you are going to need to create 3 files on your devi
 
 2 - A folder where you will place a single reference image when you want to add a new person or update an existing one in the database (eg. 'reference_image') 
 
-3 - A config.json file which you will use to alter the settings and give the program nessecary information
+3 - A config.json file which you will use to alter the settings and give the program nessecary information (the name of the reference image and your Aiven URI)
 
 Example of how to do this (after the image has been pulled):
 
