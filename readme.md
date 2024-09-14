@@ -26,6 +26,8 @@ Comments:
 
 Make sure your images are also stored somwhere outside these directories as they will be cleared after the images have served their purpose.
 
+The folders in the local_variables directory have .foo files in them. This is only to allow them to be added to this repository they are in no way needed for the functioning of the app.
+
 Try to avoid uploading the same images multiple times, although is shouldn't really cause issues.
 
 
