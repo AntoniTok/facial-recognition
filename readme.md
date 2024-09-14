@@ -50,6 +50,7 @@ After this you are ready to run the app:
 If you are just running the app directly in the code editor of your choice make sure to check 'requirements.txt' if you have all the nesseccary dependencies installed.
 You will also need 'libgl1' and 'libgl1-mesa-glx'.
 Also make sure to alter the 'base path' in the config file as well as the haarcascade_frontalface_default path in the main app.
+For uploading all your images to the database use the /local_variables/images folder, and for creating profiles, place a single portrait image in /local_variables/reference_image folder.
 
 
 
