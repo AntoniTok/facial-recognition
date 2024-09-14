@@ -1,7 +1,7 @@
 {
     "URL": "<Your Aiven PostgreSQL URI>",
     "base_path": "/app/local_variables/",
-    "image_name": "<The name of the image being used for reference>.jpg", 
+    "image_name": "<The name of the image being used for reference in the reference_image folder>.jpg", 
     "__comment": "The image_name will always be .jpg regardless of the file type for the reference image",
     "threshold": 0.85,
     "__comment1": "Recommended value is ~0.85, many false positives will occur if the value is too low, above 0.88 is generally the intended target but some pictures can be missed"
