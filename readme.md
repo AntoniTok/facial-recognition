@@ -33,7 +33,7 @@ You are also going to need to make a free aiven.io account and then create a Pos
 
 Comments:
 
-Make sure your images are also stored somwhere outside these directories as they will be cleared after the images have served their purpose.
+Make sure your images are also stored somwhere outside these directories as they will be cleared after they have served their purpose.
 
 For creating the config.json file just use the one in this repository.
 
